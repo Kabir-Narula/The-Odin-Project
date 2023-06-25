@@ -1,0 +1,28 @@
+lang specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage.
+We should always have the meta tag for the charset encoding of the webpage in the head element: <meta charset="utf-8">.
+Another element we should always include in the head of an HTML document is the title element:
+
+TEMPLATE!
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My first webpage</title>
+</head>
+<body>
+    My First Webpage!
+</body>
+</html>
+we have header such as <h1> <h2>....<h6>(opening)       </h1></h2></h7> (closing)
+we have paragraphs; we represent them with  <p> </p>
+To bold we use - <strong>  </strong>
+To italics we use- <em> </em>
+
+
+
+
+
+
+
+
