@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Bungee Inline', cursive;
+    display: grid;
+    justify-content: center;
+    background-color: rgba(6, 58, 92, 0.518);
+    color: rgb(193, 193, 219);
+}
+
+
+button {
+    background-color: black;
+    color: rgb(193, 193, 219);
+    border: solid 1px rgb(0, 0, 70);
+    font-family: 'Bungee Inline', cursive;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+
+button:hover {
+    background-color: rgb(138, 139, 226);
+    color: white;
+    border-color: white;
+}
+
+#container {
+    display: grid;
+    gap: 25px;
+    width: 400px;
+    margin-top: 4em;
+    padding: 1em;
+    border: solid 4px rgb(161, 236, 161);
+    box-shadow: 10px 5px 5px rgb(161, 236, 161, 0.2);
+}
+
+nav {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 15px;
+}
+
+#title {
+    font-size: 2em;
+    margin: auto;
+}
+
+#display {
+    display: grid;
+    grid-template-rows: 40px;
+    place-items: center;
+    width: 100%;
+    background-color: rgb(20, 5, 27);
+    color: white;
+    border: solid 4px rgb(161, 236, 161);
+    font-size: 1.2em;
+    overflow: hidden;
+}
+
+#buttons {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    gap: 16px;
+    grid-template-columns: 2.5fr 0.8fr;
+    grid-template-rows: 40px;
+}
+
+#actions {
+    display: grid;
+    place-items: center;
+    grid-column: 1 / span 2;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+}
+
+#actions button {
+    width: 100%;
+    height: 100%;
+}
+
+#numbers {
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, minmax(3em, 1fr));
+}
+
+#operators {
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: 1fr;
+}
+
+footer{
+    margin:auto;
+    padding: 0.7em;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+    margin: auto;
+    padding: 5px 10px;
+}
+
+footer a:hover{
+    cursor: pointer;
+    color:rgb(161, 236, 161);
+}
+
+.flashit{
+    color:rgb(255, 255, 255);
+      -webkit-animation: flash linear 1.1s infinite;
+      animation: flash linear 1.1s infinite;
+  }
+  @-webkit-keyframes flash {
+      0% { opacity: 1; } 
+      50% { opacity: .1; } 
+      100% { opacity: 1; }
+  }
+  @keyframes flash {
+      0% { opacity: 1; } 
+      50% { opacity: .1; } 
+      100% { opacity: 1; }
+  }
