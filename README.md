@@ -1,4 +1,2 @@
 # The-Odin-Project
-These are my own projects, when I started Learning HTMl
-
-The Live Preview for first project(Recipes)- http://127.0.0.1:5500/index.html
+The Odin Project provides a free open source coding curriculum that can be taken entirely online. Since its inception, it has helped many students get hired as developers and has assisted countless others in learning enough programming to work on their own personal projects.
