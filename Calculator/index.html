@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=c, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <span class="flashit" id="title">Calculator</span>
+        </nav>
+        <div id="display">
+            <span id="number-display"></span>
+        </div>
+        <div id="buttons">
+            <div id="actions">
+                <button id="delete-btn">Delete</button>
+                <button id="clear-btn">Clear</button>
+                <!-- //delete - means backspace.  clear - means just clear. -->
+           </div>
+            <div id="numbers">
+                <button class="number-btn">7</button>
+                <button class="number-btn">8</button>
+                <button class="number-btn">9</button>
+                <button class="number-btn">4</button>
+                <button class="number-btn">5</button>
+                <button class="number-btn">6</button>
+                <button class="number-btn">1</button>
+                <button class="number-btn">2</button>
+                <button class="number-btn">3</button>
+                <button class="number-btn">0</button>
+                <button id="decimal-btn">.</button>
+                <button id="total-btn">=</button>
+            </div>
+            <div id="operators">
+                <button class="operator-btn" value="add">+</button>
+                <button class="operator-btn" value="subtract">-</button>
+                <button class="operator-btn" value="multiply">*</button>
+                <button class="operator-btn" value="divide">/</button>
+            </div>
+        </div>
+    </div>
+    <footer>Made by <a href="https://github.com/LeviAcker25">Kabir Narula</a></footer>
+    <script src="app.js"></script>
+</body>
+</html>
