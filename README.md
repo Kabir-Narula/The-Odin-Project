@@ -1,4 +1,4 @@
-# The Odin Project: Empowering my Journey in Web Development
+
 
 ![og-logo-022832d4cefeec1d5266237be260192f5980f9bcbf1c9ca151b358f0ce1fd2df](https://github.com/LeviAcker25/The-Odin-Project/assets/137004973/8f15e75a-9c08-4802-9562-205b53630714)
 
