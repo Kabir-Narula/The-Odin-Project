@@ -1,5 +1,6 @@
 # The Odin Project: Empowering my Journey in Web Development
-Odin Project Logo
+
+![og-logo-022832d4cefeec1d5266237be260192f5980f9bcbf1c9ca151b358f0ce1fd2df](https://github.com/LeviAcker25/The-Odin-Project/assets/137004973/8f15e75a-9c08-4802-9562-205b53630714)
 
 # What is The Odin Project?
 The Odin Project is an exceptional online platform that serves as a guiding light for individuals like me who aspire to become proficient web developers. It offers a comprehensive, self-paced curriculum designed to equip learners with the necessary skills and knowledge to create impressive web applications and websites. Unlike traditional coding bootcamps or costly university programs, The Odin Project is entirely free, making it accessible to anyone with a passion for coding and a desire to master web development.
